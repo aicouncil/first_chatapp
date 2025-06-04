@@ -45,7 +45,7 @@ def main():
     st.title("AiCouncil PDF Chatbot")
 
     # Load PDF text once and cache it
-    pdf_path = "aicouncil_brochure.pdf"
+    pdf_path = "AiCouncil_brochure.pdf"
     pdf_text = extract_pdf_text(pdf_path)
 
     # Initialize chat history in session state
